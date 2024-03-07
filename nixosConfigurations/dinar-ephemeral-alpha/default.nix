@@ -34,11 +34,11 @@ in {
       configFile = "/mnt/eth/wg0.conf";
     };
 
-    # Erigon options
-    execution.erigon = {
+    # Besu options
+    execution.besu = {
       enable = true;
       endpoint = "http://${infra.ip}:8551";
-      dataDir = "/mnt/eth/erigon";
+      dataDir = "/mnt/eth/besu";
       jwtSecretFile = "/mnt/eth/jwt.hex";
     };
 
