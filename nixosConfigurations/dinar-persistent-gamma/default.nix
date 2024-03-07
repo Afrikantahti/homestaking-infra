@@ -60,7 +60,7 @@ in {
         }
         {
           name = "dinar-alpha";
-          flakeUrl = "github:ponkila/homestaking-infra";
+          flakeUrl = "github:ponkila/homestaking-infra\?ref=dinar-besu";
           hosts = ["dinar-ephemeral-alpha"];
           buildRequests = true;
           timeout = 1;
