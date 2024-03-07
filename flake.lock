@@ -1198,15 +1198,16 @@
         "nixpkgs-stable": "nixpkgs-stable_7"
       },
       "locked": {
-        "lastModified": 1709124518,
-        "narHash": "sha256-lVRMoZZgeIGkj2LO74EG0D18p96Pa9ZFTK0Rd5k4rYo=",
+        "lastModified": 1709821342,
+        "narHash": "sha256-KbHAV88aXrO6C+ecUpZ3u4lUd62Nl7vYw6eXVV6s/8I=",
         "owner": "ponkila",
         "repo": "nixobolus",
-        "rev": "58908e4cce4c970641ffe1ad0693085fed59ab50",
+        "rev": "8465e2b03c5c0f6e65a722fe2a4979a49d8abf22",
         "type": "github"
       },
       "original": {
         "owner": "ponkila",
+        "ref": "tweak-besu",
         "repo": "nixobolus",
         "type": "github"
       }
