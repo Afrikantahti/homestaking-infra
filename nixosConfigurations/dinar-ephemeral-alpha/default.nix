@@ -71,9 +71,9 @@ in {
       enable = true;
       description = "storage";
 
-      what = "/dev/sda1";
+      what = "/dev/sda";
       where = "/mnt/eth";
-      type = "ext4";
+      type = "xfs";
 
       wantedBy = ["multi-user.target"];
     };
